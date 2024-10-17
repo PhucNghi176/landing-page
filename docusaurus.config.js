@@ -87,7 +87,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/blog/rss.xml', label: 'CV', position: 'left'},
+          {to: '/blog', label: 'CV', position: 'left'},
           {
             href: 'https://github.com/PhucNghi176',
             label: 'GitHub',
