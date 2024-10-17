@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Pham Phuc Nghi',
+  tagline: 'Software Engineer',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -74,7 +74,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'PhamPhucNghi',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -87,8 +87,9 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog/rss.xml', label: 'CV', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/PhucNghi176',
             label: 'GitHub',
             position: 'right',
           },
@@ -110,17 +111,13 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/nghi.pham.1706',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Leet Code',
+                href: 'https://leetcode.com/u/EricLenSher/',
+              },             
             ],
           },
           {
@@ -132,7 +129,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/PhucNghi176',
               },
             ],
           },
